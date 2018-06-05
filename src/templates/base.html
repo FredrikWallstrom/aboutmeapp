@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>{{ title }} - Fredrik Wallström</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+
+    <body>
+      <div class="page-bg"></div>
+        <div class="menu-bar">
+          <nav class="inner-menu-bar">
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('index') }}">About me</a>
+            <a href="{{ url_for('index') }}">Follow</a>
+            <a href="{{ url_for('index') }}">Sponsors</a>
+          </nav>
+        </div>
+        {% block content %}{% endblock %}
+    </body>
+</html>
