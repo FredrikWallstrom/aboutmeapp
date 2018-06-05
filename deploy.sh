@@ -12,6 +12,6 @@ sudo cp requirements.txt /var/flaskapp/aboutmeapp/requirements.txt
 sudo cp -r src/ /var/flaskapp/aboutmeapp/src/
 sudo cp -r static/ /var/flaskapp/aboutmeapp/static/
 
-echo "Restarting superviso and nginx"
+echo "Restarting supervisor and nginx"
 sudo service supervisor restart
 sudo service nginx restart
