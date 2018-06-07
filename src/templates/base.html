@@ -10,10 +10,13 @@
       <div class="page-bg"></div>
         <div class="menu-bar">
           <nav class="inner-menu-bar">
-            <a href="{{ url_for('index') }}">Home</a>
-            <a href="{{ url_for('index') }}">About me</a>
-            <a href="{{ url_for('index') }}">Follow</a>
-            <a href="{{ url_for('index') }}">Sponsors</a>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <br/>
+            <li><a href="{{ url_for('index') }}">About me</a></li>
+            <br/>
+            <li><a href="{{ url_for('index') }}">Follow</a></li>
+            <br/>
+            <li><a href="{{ url_for('index') }}">Sponsors</a></li>
           </nav>
         </div>
         {% block content %}{% endblock %}
