@@ -2,4 +2,21 @@
 
 {% block content %}
 
+        <div class="menu-bar">
+          <nav class="inner-menu-bar">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <br/>
+            <li><a href="{{ url_for('home') }}">About me</a></li>
+            <br/>
+            <li><a href="{{ url_for('home') }}">Follow</a></li>
+            <br/>
+            <li><a href="{{ url_for('home') }}">Sponsors</a></li>
+          </nav>
+        </div>
+
+        <div class="social-links-bar">
+        	<a href="https://www.facebook.com/" class="fa fa-instagram" style="font-size:60px;"></a>
+        	<a href="https://www.facebook.com/" class="fa fa-facebook" style="font-size:60px;"></a>
+        	<a href="https://www.facebook.com/" class="fa fa-linkedin" style="font-size:60px;"></a>
+        </div>
 {% endblock %}

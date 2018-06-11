@@ -7,6 +7,10 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="/static/js/myjavascript.js"></script>
 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     </head>
 
 
@@ -15,17 +19,7 @@
 
         <div class="background"></div>
 
-        <div class="menu-bar">
-          <nav class="inner-menu-bar">
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <br/>
-            <li><a href="{{ url_for('home') }}">About me</a></li>
-            <br/>
-            <li><a href="{{ url_for('home') }}">Follow</a></li>
-            <br/>
-            <li><a href="{{ url_for('home') }}">Sponsors</a></li>
-          </nav>
-        </div>
+
 
         {% block content %}{% endblock %}
 
