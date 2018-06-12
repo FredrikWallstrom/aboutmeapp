@@ -1,12 +1,10 @@
 from flask import render_template
+from flask_bootstrap import Bootstrap
 from src import app
-from flask_mobility import Mobility
-from flask_mobility.decorators import mobile_template
 
-Mobility(app)
+Bootstrap(app)
 
 @app.route('/')
-@mobile_template('{mobile/}home.html')
-def home(template):
+def home():
     user = {'username': 'Fredrik Wallström'}
-    return render_template(template)
+    return render_template('index.html')
