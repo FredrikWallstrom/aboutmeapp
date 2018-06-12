@@ -1,3 +1,68 @@
 .col-md-4.mb-5.mb-lg-0 {
     margin: auto;
 }
+
+.bg-primary {
+    background-color: #B81D18!important;
+}
+
+.bg-secondary {
+    background-color: #202020!important;
+}
+
+.footer {
+    background-color: #B81D18;
+}
+
+.copyright {
+    background-color: #202020;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #B81D18;
+}
+
+.btn-primary {
+    background-color: #B81D18;
+    border-color: #B81D18;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #B81D18;
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: #004687!important;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+    background-color: #B81D18;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #202020;
+    border-color: #202020;
+}
+
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #B81D18;
+}
+
+ #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #B81D18;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #B81D18;
+  }
+
+a {
+  color: #B81D18;
+}
+
+a:focus, a:hover, a:active {
+  color: #202020;
+}
