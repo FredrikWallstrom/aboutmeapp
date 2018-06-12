@@ -70,3 +70,7 @@ a:focus, a:hover, a:active {
 .floating-label-form-group-with-value label {
     color: #202020;
 }
+
+.floating-label-form-group-with-focus label {
+    color: #202020;
+}
