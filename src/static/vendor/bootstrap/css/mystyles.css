@@ -65,6 +65,14 @@ a {
   color: #B81D18;
 }
 
+.about-me-img{
+	height: 100px;
+	width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a:focus, a:hover, a:active {
   color: #202020;
 }
@@ -82,10 +90,37 @@ a:focus, a:hover, a:active {
     border-radius: 30px;
 }
 
+.col-md-4 {
+    margin: auto;
+    margin-bottom: 10%
+}
+
+p.lead.mb-0 {
+    text-align: center;
+}
+
 .github-btn{
 	font-size: 70px;
 	color: black;
 }
 .github-btn:hover{
 	opacity: 0.5;
+}
+
+hr.light,
+hr.dark{
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+hr.dark {
+  border-color: #2C3E50;
 }
